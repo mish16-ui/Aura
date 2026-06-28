@@ -1,16 +1,110 @@
-# React + Vite
+# Aura - AI Productivity Coach
+Aura is an AI-powered productivity assistant that helps users organize tasks, prioritize work intelligently, and stay focused using AI recommendations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Demo
+https://aura-nu-roan.vercel.app
 
-Currently, two official plugins are available:
+## 📂 GitHub Repository
+https://github.com/mish16-ui/Aura
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ AI Productivity Coach (Gemini AI)
 
-## Expanding the ESLint configuration
+✅ Smart Task Prioritization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ AI Chat Assistant
+
+✅ Focus Session with Smart Timer
+
+✅ Deadline Reminder
+
+✅ Smart Schedule Timeline
+
+✅ Productivity Insights
+
+✅ Responsive UI
+
+---
+
+# Tech Stack
+
+- React.js
+- Vite
+- Material UI
+- Framer Motion
+- Gemini AI API
+- Vercel
+- GitHub
+
+---
+
+# AI Features
+
+Aura can:
+
+- Recommend what to work on first
+- Analyze pending tasks
+- Suggest focus sessions
+- Understand user task context
+- Motivate users with AI responses
+
+---
+
+# Screens
+
+- Dashboard
+- AI Chat
+- Focus Session
+- Smart Schedule
+- Insights
+
+---
+
+# Installation
+
+```bash
+git clone https://github.com/mish16-ui/Aura.git
+
+cd Aura
+
+npm install
+
+npm run dev
+```
+
+---
+
+# Deployment
+
+Deployed using Vercel.
+
+---
+
+# Future Scope
+
+- AI Voice Assistant
+
+- Calendar Sync
+
+- Email Reminder
+
+- Team Collaboration
+
+- Cross-device Sync
+
+- AI Task Prediction
+
+---
+
+# Team
+
+Mishtha
+
+Hackathon Project 2026
+
+---
+
+Made with ❤️ using React + Gemini AI
