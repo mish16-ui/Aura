@@ -1,12 +1,18 @@
-import React from 'react';
-import { Box } from '@mui/material';
+import React, { useState } from 'react';
+import { Box, IconButton } from '@mui/material';
 import Sidebar from '../components/layout/Sidebar';
+import { Menu } from 'lucide-react';
 
 /**
  * DashboardLayout
  * Provides the premium dark glassmorpShic background and grid structure.
  */
 const DashboardLayout = ({ children }) => {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+const handleDrawerToggle = () => {
+  setMobileOpen(!mobileOpen);
+};
   return (
     <Box
       sx={{
@@ -56,7 +62,8 @@ const DashboardLayout = ({ children }) => {
 
       {/* Persistent Sidebar */}
       <Sidebar
-  isOpen={true}
+  isOpen={mobileOpen}
+  onClose={handleDrawerToggle}
   drawerWidth={280}
 />
 
@@ -78,10 +85,28 @@ const DashboardLayout = ({ children }) => {
           },
         }}
       >
+        <Box
+  sx={{
+    display: { xs: "flex", md: "none" },
+    mb: 2,
+  }}
+>
+  <IconButton
+    onClick={handleDrawerToggle}
+    sx={{
+      color: "white",
+      bgcolor: "rgba(255,255,255,0.05)",
+    }}
+  >
+    <Menu size={24} />
+  </IconButton>
+</Box>
+       
         {children}
       </Box>
     </Box>
   );
 };
+
 
 export default DashboardLayout;

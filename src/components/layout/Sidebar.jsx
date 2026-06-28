@@ -132,7 +132,11 @@ const Sidebar = ({ isOpen, onClose, drawerWidth = 280 }) => {
 
   return (
     <Drawer
-      variant={isMobile ? "temporary" : "persistent"}
+  ModalProps={{
+    keepMounted: true,
+  }}
+      
+      variant={isMobile ? "temporary" : "permanent"}
       open={isOpen}
       onClose={onClose}
       sx={{
