@@ -1,10 +1,10 @@
-# Aura - AI Productivity Coach
+Aura - AI Productivity Coach
 Aura is an AI-powered productivity assistant that helps users organize tasks, prioritize work intelligently, and stay focused using AI recommendations.
 
-## Live Demo
-https://aura-nu-roan.vercel.app
+Live Demo
+https://project-a7d502df-e8d8-4de8-856.web.app
 
-## 📂 GitHub Repository
+GitHub Repository
 https://github.com/mish16-ui/Aura
 
 ---
@@ -78,8 +78,7 @@ npm run dev
 ---
 
 # Deployment
-
-Deployed using Vercel.
+Deployed on Google Cloud (Firebase Hosting)
 
 ---
 
@@ -100,8 +99,7 @@ Deployed using Vercel.
 ---
 
 # Team
-
-Mishtha
+GenForge
 
 Hackathon Project 2026
 
